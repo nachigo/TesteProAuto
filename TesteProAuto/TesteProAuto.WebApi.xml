@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TesteProAuto.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:TesteProAuto.WebApi.Controllers.AssociadoController.GetAssociado(System.String,System.String)">
+            <summary>
+            Retorna o Associado pelo cpf e placa enviados
+            </summary>
+            <param name="cpf"></param>
+            <param name="placa"></param>
+            <returns>Associado</returns>
+        </member>
+        <member name="M:TesteProAuto.WebApi.Controllers.AssociadoController.SaveEnderecoAssociado(TesteProAuto.Domain.BO.SaveEnderecoAssociadoRequestBO)">
+            <summary>
+            Salva o endereco do Associado
+            </summary>
+            <param name="objRequest"></param>
+            <returns>Associado</returns>
+        </member>
+    </members>
+</doc>

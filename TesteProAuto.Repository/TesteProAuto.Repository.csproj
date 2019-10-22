@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TesteProAuto.Data\TesteProAuto.Data.csproj" />
+    <ProjectReference Include="..\TesteProAuto.Domain\TesteProAuto.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
